@@ -1,0 +1,6 @@
+FROM ubuntu
+LABEL app=my-app
+RUN apt update -y && apt install apache2 -y
+# dummy commit
+
+
